@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 21)
     (tracks 48)
     (zones 0)
     (modules 12)
@@ -748,6 +748,9 @@
       (net 2 "Net-(C1-Pad1)"))
   )
 
+  (gr_text "38k4 bps\n" (at 91.313 146.177 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (gr_text "MFP 1" (at 76.2 104.902 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -781,7 +784,7 @@
 
   (via (at 76.2 134.62) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (via (at 76.581 142.24) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
-  (via (at 91.567 142.621) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
+  (via (at 91.948 142.113) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (via (at 91.44 134.62) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (via (at 85.598 130.302) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (via (at 81.661 132.08) (size 0.762) (drill 0.381) (layers F.Cu B.Cu) (net 1))
