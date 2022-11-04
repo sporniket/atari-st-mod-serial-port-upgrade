@@ -208,4 +208,8 @@ NoConn ~ 4450 5300
 NoConn ~ 4450 5400
 NoConn ~ 4450 5500
 NoConn ~ 4450 5600
+Text Notes 2850 6100 2    50   ~ 0
+The original mod takes into account that \npin 34 of the MFP is tied to ground on \nthe ST. I added an optionnal way to use \nthe real GND pin of the MFP.
+Text Notes 3050 4100 2    50   ~ 0
+I added an optionnal bypass capacitor.
 $EndSCHEMATC
